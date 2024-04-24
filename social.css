@@ -4,25 +4,36 @@
 }
 body{
  background-color: hsl(0, 0%, 8%);   
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ text-align: center;
 }
 img{
     border-radius: 50%;
     height: 80px;
     width: 80px;
 }
-
 .container{
-    width: 332px;
-    height: 580px;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    width: 375px;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    border-radius: 10px;
+    padding: 27px 24px;
+    /* height: 580px; */
+    /* margin: 0 auto; */
+    /* margin-top: 40px;
+    margin-bottom: 40px; */  
 }
-.wrap{
+/* .wrapdiv{
+   padding-left: 20px;
+   padding-right: 20px;
+} */
+/* .wrap{
    padding: 27px;
     background-color: hsl(0, 0%, 12%);
     text-align: center;
-}
+} */
 .p2{
     color:  hsl(75, 94%, 57%);
     font-weight: 600;
@@ -43,7 +54,7 @@ img{
 }
 .div1{
     background-color: hsl(0, 0%, 20%);
-    border-radius: 10px;
+   
 }
 .div1 a{
     color:  hsl(0, 0%, 100%);
@@ -53,10 +64,17 @@ img{
     padding-bottom: 10px;
     padding-top: 10px;
     margin-bottom: 20px;
-    font-size: 20px;
+    /* font-size: 20px; */
+    border-radius: 10px;
   
 }
 .div1:hover{
     background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
 }
+.div1:hover a{
+    color: black;
+}
+
 
